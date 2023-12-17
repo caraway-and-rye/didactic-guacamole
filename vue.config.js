@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/didactic-guacamole/'
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/didactic-guacamole/'
+      : '/'
   }
