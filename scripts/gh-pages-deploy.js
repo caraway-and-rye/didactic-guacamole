@@ -1,6 +1,5 @@
-/* eslint-disable */
-const execa = require("execa");
-const fs = require("fs");
+import execa from "execa";
+import fs from "fs";
 
 (async () => {
 try {
@@ -8,6 +7,7 @@ try {
     const { stdout } = await execa("git", ["diff-index", "HEAD"]);
     if (stdout) {
         console.log("Please stash or commit changes first!");
+        // eslint-disable-next-line no-undef
         process.exit(1);
     }
 
@@ -24,6 +24,7 @@ try {
     console.log("Successfully deployed");
 } catch (e) {
     console.log(e.message);
+    // eslint-disable-next-line no-undef
     process.exit(1);
 }
 finally {
