@@ -1,0 +1,1 @@
+import{_ as t,c as e,a as o,o as s}from"./index-D8xkVGL-.js";const a={},c={class:"about"},n=o("h1",null,"This is an about page about... nothing in particular",-1),_=[n];function r(i,u){return s(),e("div",c,_)}const l=t(a,[["render",r]]);export{l as default};
