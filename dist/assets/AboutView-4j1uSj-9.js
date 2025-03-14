@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as o,a as s}from"./index-eESgXlAl.js";const a={},c={class:"about"},n=s("h1",null,"This is an about page about... nothing in particular",-1),_=[n];function r(i,u){return e(),o("div",c,_)}const l=t(a,[["render",r]]);export{l as default};
